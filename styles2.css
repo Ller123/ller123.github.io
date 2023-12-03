@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(https://wallpaperaccess.com/full/3124512.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+ }
+
+ .logo{
+    height: 50px;
+    width: 50px;
+ }
+    
+ .formu {
+  width: 450px;
+  margin: auto;
+  background: rgba(0,0,0,0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 100px;
+  border-radius: 7px;
+  margin-bottom: 100px;
+ }
+
+ .formu h2{
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+ }
+
+ .formu input,textarea{
+
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+ }
+
+ .formu textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+ }
+
+ #boton{
+  background: #31384A;
+  color: #fff;
+  padding: 20px;
+ }
+
+ #boton:hover{
+  cursor: pointer;
+ }
+
+
+ @media (max-width:480px) {
+  .formu{
+    width:100%
+  }
+}
+
+#bus{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin: auto;
+}
+
+#bus:hover{
+  background-color: #2fb4cc;
+  color: #fff;
+
+}
+
+.pie-de-pagina{
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+.pie-de-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-de-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-de-pagina .grupo-1 .box figure img{
+  width: 250px;
+  margin-top: -40px;
+}
+.pie-de-pagina .grupo-1 .box h2{
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-de-pagina .grupo-1 .box p{
+  color: #fff;
+  margin-bottom: 10px;
+}
+.pie-de-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-de-pagina .grupo-1 .red-social a:hover{
+  color: #2fb4cc;
+}
+.pie-de-pagina .grupo-2{
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-de-pagina .grupo-2 small{
+  font-size: 15px;
+}
+@media screen and (max-width:800px){
+  .pie-de-pagina .grupo-1{
+     width: 90%;
+     grid-template-columns: repeat(1, 1fr);
+     grid-gap: 30px;
+     padding: 35px 0px;
+     align-items: center;
+  }
+}
+.til{
+font-size: 30px;
+}
+
+.til2{
+  font-size: 50px;
+}
